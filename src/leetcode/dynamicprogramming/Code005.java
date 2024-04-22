@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.dynamicprogramming;
 
 /**
  * Package: leetcode
