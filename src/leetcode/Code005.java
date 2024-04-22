@@ -26,7 +26,7 @@ public class Code005 {
          *       解释：只有s[i+1,j-1]是回文串，且s的第i个和第j个字母相同，s[i,j]才是回文串；
          *
          *  动态规划边界条件：p(i,j) = true
-         *                 p(i,i+1) = (Si == Si+1)
+         *                   p(i,i+1) = (Si == Si+1)
          *
          *   最终答案为所有p(i,j) = true 中 j-i+1 的最大值
          *
