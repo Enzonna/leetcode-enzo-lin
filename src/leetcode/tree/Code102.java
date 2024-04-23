@@ -16,6 +16,7 @@ import java.util.Queue;
  */
 public class Code102 {
     /**
+     * 层次遍历 要会的 考研时候就应该会的
      * 每个点进出队各一次，时间复杂度O(n),队中元素个数不超过n，空间复杂度O(n)
      *
      * @param root
