@@ -52,6 +52,8 @@ public class Code442 {
      * 放置的方法：
      * 对数组进行一次遍历，当遍历到i时，我们知道arr[i]本应该在 arr[arr[i] - 1]的位置，
      * 因此交换arr[i]和 arr[arr[i] - 1] 即可，直到待交换的两个元素相等为止。
+     * <p>
+     * 这样，时间复杂度O(n)，但空间复杂度为O(1)，原地操作
      *
      * @param nums
      * @return
@@ -84,10 +86,10 @@ public class Code442 {
     @Test
     public void test() {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
-        //int[] nums2 = {1, 1, 2};
-        //int[] nums3 = {1};
+        int[] nums2 = {1, 1, 2};
+        int[] nums3 = {1};
         System.out.println(findDuplicates(nums));
-        //System.out.println(findDuplicates(nums2));
-        //System.out.println(findDuplicates(nums3));
+        System.out.println(findDuplicates(nums2));
+        System.out.println(findDuplicates(nums3));
     }
 }
