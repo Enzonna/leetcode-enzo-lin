@@ -48,7 +48,7 @@ public class ReflectTest {
          */
         sidPublic.set(s,20);//给s对象中的sidPublic赋值
 
-        s.studentShow();
+        //s.studentShow();
     }
 
     /*
@@ -72,7 +72,7 @@ public class ReflectTest {
          */
         sidPrivate.set(s,30);//给s对象中的sidPrivate赋值
 
-        s.studentShow();
+        //s.studentShow();
     }
 
 

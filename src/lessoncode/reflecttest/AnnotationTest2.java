@@ -23,20 +23,20 @@ import java.lang.annotation.Target;
  */
 @Target(value = {ElementType.METHOD,ElementType.FIELD})
 @Retention(RetentionPolicy.SOURCE)
-@interface MyAnn{
+@interface MyAnnn{
     //属性 = 如果名字叫作value那么在给注解赋值时可以省略不写
     String name() default "longge";//default "longge" ： 设置默认值
 
 }
 
 class Emp{
-    @MyAnn(name="xiaolongge")//name="xiaolongge" ：给注解中的属性赋值
+    @MyAnnn(name="xiaolongge")//name="xiaolongge" ：给注解中的属性赋值
     int id;
 
 //    @Override
 //    int age;
 
-    @MyAnn //不用强制给注解中的name赋值了 - 因为name有默认值
+    @MyAnnn //不用强制给注解中的name赋值了 - 因为name有默认值
     public void show(){
 
     }
