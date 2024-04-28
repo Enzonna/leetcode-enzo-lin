@@ -1,6 +1,6 @@
 package leetcode.arraycode;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Package: leetcode.arraycode
