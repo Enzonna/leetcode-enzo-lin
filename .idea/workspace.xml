@@ -5,37 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c90aff6-9292-4d9a-a81e-aa8466eb7519" name="Changes" comment="2024.4.29">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/CRUDDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/CRUDDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/JDBCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCcode/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/15-库的操作.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/16-表的操作.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/17-字段的操作.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/18-mysql数据类型.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/19-数据的操作之增，删，改.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/20-事务.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/21-约束.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/22-约束.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/23-约束.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/24-约束.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysqlcode/25-分页.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-enzo-lin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-enzo-lin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysqlcode/04-过滤.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/04-过滤.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysqlcode/07-去重.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/07-去重.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysqlcode/08-多表查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/08-多表查询.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysqlcode/10-单行函数.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/10-单行函数.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysqlcode/11-多行函数.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/11-多行函数.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mysqlcode/13-子查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/13-子查询.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +52,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -193,8 +163,33 @@
       <option name="project" value="LOCAL" />
       <updated>1714318639196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2024.4.29">
+      <created>1714373854782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714373854782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2024.4.29">
+      <created>1714374070643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714374070643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
