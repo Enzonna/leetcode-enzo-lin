@@ -84,6 +84,7 @@ case表达式：
 	  when 值1 then 返回值1
 	  when 值2 then 返回值2
 	  when 值3 then 返回值3
+	  ......
 	  else 返回值n
   end
 
@@ -92,6 +93,7 @@ case表达式：
 	  when 表达式1 then 返回值1
 	  when 表达式2 then 返回值1
 	  when 表达式3 then 返回值1
+	  ......
 	  else 返回值n
   end	  
 */

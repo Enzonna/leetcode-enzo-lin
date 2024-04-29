@@ -8,6 +8,12 @@
 	
 连接语句分类 ：sql92语法和sql99语法
 
+
+sql92语法
+	select 表名.字段名1，表名.字段名2,...
+	from 表1 表别名1，表2 表别名2,......
+	where 连接条件
+
 */
 #sql92语法
 #需求：查询每个员工的姓名和所在的部门名称
@@ -33,7 +39,7 @@ WHERE e.department_id=d.department_id;
 
 #缺少连接条件 发生了笛卡尔集错误
 SELECT e.first_name,d.department_name
-FROM employees e,departments d;
+FROM employees e,departments d
 
 
 #需求：查询每个员工的姓名，部门名称和部门所在城市的名称

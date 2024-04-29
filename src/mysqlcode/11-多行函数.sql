@@ -9,7 +9,7 @@ MIN() ：求最小值
 COUNT() ：求数据的条数
 */
 #需求：求员工薪水的总和，平均值，最高薪水，最低薪水
-SELECT SUM(salary), AVG(salary), MAX(salary), MIN(salary)
+SELECT SUM(salary),AVG(salary),MAX(salary),MIN(salary)
 FROM employees;
 
 #注意：select后面一旦出现组函数（聚合函数，分组函数）就不能再出现其它字段。
@@ -41,10 +41,10 @@ FROM employees;
 #查询50号部门有多少人
 SELECT COUNT(*)
 FROM employees
-WHERE department_id = 50;
+WHERE department_id=50;
 
 
-SELECT COUNT(employee_id), COUNT(commission_pct)
+SELECT COUNT(employee_id),COUNT(commission_pct)
 FROM employees;
 
 #奖金率不为null的有多少人
@@ -52,17 +52,18 @@ SELECT COUNT(*)
 FROM employees
 WHERE commission_pct IS NOT NULL;
 
-SELECT COUNT(salary), COUNT(commission_pct)
+SELECT COUNT(salary),COUNT(commission_pct)
 FROM employees
-WHERE department_id = 60;
+WHERE department_id=60
 
 
-SELECT first_name, salary, COUNT(2)
+SELECT first_name,salary,COUNT(2)
 FROM employees;
 
 
+
 #注意：avg在求平均值时有没有包括null? 不包括null
-SELECT AVG(commission_pct), SUM(commission_pct) / 107, SUM(commission_pct) / 35
+SELECT AVG(commission_pct),SUM(commission_pct)/107,SUM(commission_pct)/35
 FROM employees;
 
 

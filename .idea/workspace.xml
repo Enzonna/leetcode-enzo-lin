@@ -4,33 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c90aff6-9292-4d9a-a81e-aa8466eb7519" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/guava-19.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/guice-4.1.0-no_aop.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/snakeyaml-1.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/testng-7.1.0.jar" afterDir="false" />
+    <list default="true" id="2c90aff6-9292-4d9a-a81e-aa8466eb7519" name="Changes" comment="2024.4.29">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/CRUDDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/CRUDDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/JDBCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/15-库的操作.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/16-表的操作.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/17-字段的操作.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/18-mysql数据类型.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/19-数据的操作之增，删，改.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/20-事务.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/21-约束.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/22-约束.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/23-约束.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/24-约束.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysqlcode/25-分页.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-enzo-lin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-enzo-lin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arraycode/Code041.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arraycode/Code041.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/arraycode/Code059.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/arraycode/Code059.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysqlcode/04-过滤.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/04-过滤.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysqlcode/07-去重.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/07-去重.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysqlcode/08-多表查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/08-多表查询.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysqlcode/10-单行函数.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/10-单行函数.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysqlcode/11-多行函数.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/11-多行函数.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysqlcode/13-子查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysqlcode/13-子查询.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,108 +67,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Enzo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Enzo",
+    "last_opened_file_path": "F:/codelocation/leetcode-enzo-lin/src/JDBCcode",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Code118.test">
-    <configuration name="Code041" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\codelocation\leetcode-enzo-lin\src\JDBCcode" />
+      <recent name="F:\codelocation\leetcode-enzo-lin\src\mysqlcode" />
+      <recent name="F:\codelocation\leetcode-enzo-lin\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JDBCDemo.test2">
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.aa" />
       <module name="leetcode-enzo-lin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arraycode.*" />
+          <option name="PATTERN" value="JDBCcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arraycode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraycode.Code041" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code041.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.test1" />
       <module name="leetcode-enzo-lin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arraycode.*" />
+          <option name="PATTERN" value="JDBCcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arraycode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraycode.Code041" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-enzo-lin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBCcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBCcode" />
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.JDBCDemo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code059" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-enzo-lin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arraycode.*" />
+          <option name="PATTERN" value="JDBCcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arraycode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraycode.Code059" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="JDBCcode" />
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.JDBCDemo" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code054" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JDBCDemo.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-enzo-lin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arraycode.*" />
+          <option name="PATTERN" value="JDBCcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arraycode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraycode.Code054" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code118.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-enzo-lin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arraycode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arraycode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraycode.Code118" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="JDBCcode" />
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.JDBCDemo" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Code118.test" />
-        <item itemvalue="JUnit.Code059" />
-        <item itemvalue="TestNG.Code054" />
-        <item itemvalue="JUnit.Code041" />
-        <item itemvalue="JUnit.Code041.test" />
+        <item itemvalue="JUnit.JDBCDemo.test2" />
+        <item itemvalue="JUnit.JDBCDemo.test5" />
+        <item itemvalue="Application.aa" />
+        <item itemvalue="Application.test1" />
+        <item itemvalue="JUnit.JDBCDemo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,9 +186,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714315338347</updated>
     </task>
+    <task id="LOCAL-00001" summary="2024.4.28">
+      <created>1714318639196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714318639196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2024.4.28" />
+    <MESSAGE value="2024.4.29" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.4.29" />
   </component>
 </project>

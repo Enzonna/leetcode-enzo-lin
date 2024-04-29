@@ -74,6 +74,7 @@ WHERE department_id IN(80,90);#department_id=90 or department_id=80
 
 
 #需求：查询部门号除90和80号部门的员工信息
+#注意：not in 不包含null值
 SELECT first_name,department_id
 FROM employees
 WHERE department_id NOT IN(80,90);

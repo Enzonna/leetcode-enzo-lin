@@ -10,7 +10,7 @@
 多行子查询所使用运算符: in any all	
 
 
-子查询是由内向往去写。
+子查询是由内向外去写(先这与内查询再写外查询)。
 */
 
 
@@ -92,7 +92,7 @@ WHERE salary=(
 	#1.先查找最低薪水
 	SELECT MIN(salary)
 	FROM employees
-);
+)
 /*
 #注意：下面的写法不对
 SELECT last_name,job_id,salary
@@ -125,7 +125,7 @@ WHERE job_id=(
 	SELECT job_id
 	FROM employees
 	WHERE employee_id=1410
-);
+)
 
 #================================================================
 
@@ -136,7 +136,7 @@ WHERE salary > ( #子查询返回的结果为多条数据 但是使用的运算�
 	SELECT salary
 	FROM employees
 	WHERE department_id = 50
-);
+)
 
 
 #需求：返回其它部门中比job_id为‘IT_PROG’部门任一工资低的员工的员
