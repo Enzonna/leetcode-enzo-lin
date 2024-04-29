@@ -2,9 +2,7 @@ package JDBCcode;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
+import java.sql.*;
 import java.util.Properties;
 
 public class JDBCUtils {
@@ -29,7 +27,7 @@ public class JDBCUtils {
             password = pro.getProperty("password");
             url = pro.getProperty("url");
             driver = pro.getProperty("driver");
-            System.out.println(username + " " + password + " " + url + " " + driver);
+            //System.out.println(username + " " + password + " " + url + " " + driver);
 
         }catch (Exception e){
             e.printStackTrace();
@@ -62,5 +60,39 @@ public class JDBCUtils {
         }
     }
 
+    /*
+        关闭资源
+     */
+    public static void close(PreparedStatement ps, Connection connection) {
+        if (ps != null){
+            try {
+                ps.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
 
+        if (connection != null){
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    /*
+        关闭资源
+     */
+    public static void close(ResultSet rs, PreparedStatement ps, Connection connection) {
+        close(ps,connection);
+
+        if (rs != null){
+            try {
+                rs.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 }

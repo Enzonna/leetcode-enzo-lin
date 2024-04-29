@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c90aff6-9292-4d9a-a81e-aa8466eb7519" name="Changes" comment="2024.4.29">
+      <change afterPath="$PROJECT_DIR$/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCcode/TransactionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-enzo-lin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-enzo-lin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBCcode/CRUDDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBCcode/CRUDDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBCcode/JDBCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBCcode/JDBCDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBCcode/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBCcode/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBCcode/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBCcode/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +56,29 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Enzo",
-    "last_opened_file_path": "F:/codelocation/leetcode-enzo-lin/src/JDBCcode",
+    "last_opened_file_path": "F:/codelocation/leetcode-enzo-lin",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\codelocation\leetcode-enzo-lin" />
       <recent name="F:\codelocation\leetcode-enzo-lin\src\JDBCcode" />
       <recent name="F:\codelocation\leetcode-enzo-lin\src\mysqlcode" />
       <recent name="F:\codelocation\leetcode-enzo-lin\lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\codelocation\leetcode-enzo-lin\src" />
+      <recent name="F:\codelocation\leetcode-enzo-lin\resources" />
+      <recent name="F:\codelocation\leetcode-enzo-lin\src\JDBCcode\resource" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCDemo.test2">
-    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBCcode.aa" />
+  <component name="RunManager" selected="JUnit.CRUDDemo2">
+    <configuration name="TransactionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.TransactionTest" />
       <module name="leetcode-enzo-lin" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDDemo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-enzo-lin" />
       <extension name="coverage">
         <pattern>
@@ -98,52 +112,53 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JDBCcode" />
-      <option name="MAIN_CLASS_NAME" value="JDBCcode.JDBCDemo" />
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.CRUDDemo2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUDDemo.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-enzo-lin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBCcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBCcode" />
+      <option name="MAIN_CLASS_NAME" value="JDBCcode.CRUDDemo" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code442.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-enzo-lin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arraycode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.arraycode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.arraycode.Code442" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-enzo-lin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBCcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JDBCcode" />
-      <option name="MAIN_CLASS_NAME" value="JDBCcode.JDBCDemo" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCDemo.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-enzo-lin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBCcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JDBCcode" />
-      <option name="MAIN_CLASS_NAME" value="JDBCcode.JDBCDemo" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JDBCDemo.test2" />
-        <item itemvalue="JUnit.JDBCDemo.test5" />
-        <item itemvalue="Application.aa" />
+        <item itemvalue="JUnit.CRUDDemo2" />
+        <item itemvalue="Application.TransactionTest" />
+        <item itemvalue="JUnit.CRUDDemo.update" />
         <item itemvalue="Application.test1" />
-        <item itemvalue="JUnit.JDBCDemo.test" />
+        <item itemvalue="TestNG.Code442.test" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714374070643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024.4.29">
+      <created>1714374665441</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714374665441</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

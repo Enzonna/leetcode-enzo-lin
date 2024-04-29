@@ -108,15 +108,16 @@ public class CRUDDemo2 {
             int id = rs.getInt("id");
             String name = rs.getString("name");
             int age = rs.getInt("age");
-
             //将对象存放到集合中。一条数据就是一个对象
             list.add(new Person(id,name,age));
         }
+
 
         JDBCUtils.close(rs,ps,connection);
 
         return list;
     }
+
 }
 
 
